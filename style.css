@@ -1,7 +1,7 @@
 #logo{
     padding: 5px;
-    /*min-height: auto;
-    min-width: auto;*/
+    min-height: 30%;
+    min-width: 30%;
 }
 nav > div{
     padding: 5px;
