@@ -5,9 +5,17 @@
 }
 nav{
     padding: 5px;
+
 }
 nav > div{
     padding:5px;
+}
+nav > ul > li{
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-bottom: none;
+    border-color: #DEE2E6;
 }
 header{
     background-color: #D1D1D2;
