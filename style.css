@@ -1,11 +1,20 @@
+body{
+    background-color: #D1D1D2;
+}
+.row{
+    background-color: #FFFFFF;
+}
 #logo{
-    padding: 5px;
+    animation: run 2s;
     max-height: 20%;
     max-width: 20%;
 }
 nav{
     padding: 5px;
-
+    border-width: 1px;
+    border-style: solid;
+    border-bottom: none;
+    border-color: #FFD100;
 }
 nav > div{
     padding:5px;
@@ -18,19 +27,30 @@ nav > ul > li{
     border-color: #DEE2E6;
 }
 header{
-    background-color: #D1D1D2;
     padding: 10px;
 }
-h1{
-    padding: 5px;
-    display: inline;
-    vertical-align: bottom;
+#titel{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    background-color: #D1D1D2;
 }
 #werkervaring{
     animation: fadeIn 0.5s;
+}
+.tab-content{
+    border-width: 1px;
+    border-style: solid;
+    border-top: none;
+    border-color: #FFD100;
 }
 @keyframes fadeIn {
     0% { opacity: 0; }
     30% { opacity: 0; }
     100% { opacity: 1; }
-  }
+}
+
+@keyframes run {
+    0% { margin-left: -2000px; }
+    100% { margin-left: -10px; }
+}
