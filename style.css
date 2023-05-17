@@ -7,7 +7,9 @@ body{
 #logo{
     animation: run 2s;
     max-width: 50%;
-    min-width: 25%;
+    min-width: 50%;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 @keyframes run {
     0% { margin-left: -2000px; }
@@ -18,7 +20,7 @@ body{
     font-weight: bold;
     font-style: italic;
     background-color: #D1D1D2;
-    padding-top: 40px;
+    padding-top: 45px;
 }
 nav{
     padding: 5px;
