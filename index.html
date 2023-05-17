@@ -23,14 +23,14 @@
         <title>My Website</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">  
         <link rel="stylesheet" href="./style.css">
-        <link rel="icon" href="./favicon.ico" type="image/x-icon">
+        <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
     </head>
     <body>
         <div class="container-sm">
             <header>
-                <img id="logo" class="row" src="logo - kopie.PNG" alt="Logo website">
+                <img id="logo" class="row" src="./images/logo - kopie.PNG" alt="Logo website">
                 <h1 id="titel" class="text-start row">CV Stefan Duineveld</h1>
             </header>
             <nav class="row">
@@ -46,26 +46,63 @@
                 <div class="tab-content row">
                     <div id="werkervaring" class="tab-pane active">
                         <h3>Werkervaring</h3>
-                        <p>Some content.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        Why do we use it?
-                        
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                        </p>
+                        <table id="tabelWerkervaring" class="table">
+                            <tr>
+                                <td class="col-3"><b>Vrijwilliger</b><br>Villa Abel<img class="organisatie" src="./images/VillaAbel.jpeg" alt="logo Villa Abel"><br>Sep. 2022 tot heden</td>
+                                <td class="col-9">
+                                    Het begeleiden van studenten met autisme met hun dagelijks werk.
+                                    <ul>
+                                        <li>Ondersteunen bij studieplanning;</li>
+                                        <li>Rustmomenten structureren;
+                                        <li>Stress en overbelasting helpen voorkomen;</li>
+                                        <li>Motiveren;</li>
+                                        <li>Ondersteunen bij het omgaan met onvoorziene obstakels tijdens het studeren;</li>
+                                        <li>Verslag bijhouden van de studenten.</li>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-3"><b>Junior marketing</b><br>Search4Solutions<img class="organisatie" src="./images/s4s.avif" alt="logo search for solutions"><br>jun. 2021</td>
+                                <td class="col-9">Bijhouden van social media kanalen en artikelen (her)schrijven.</td>
+                            </tr>
+                            <tr>
+                                <td class="col-3"><b>Forensic ICT Researcher</b><br>Terre des Hommes<img class="organisatie" src="./images/TdH.jpeg" alt="logo Terre des Hommes"><br>feb. 2018 - jul. 2019</td>
+                                <td class="col-9">OSINT-onderzoek naar mogelijke seksuele uitbuiting van minderjarigen n.a.v. meldingen.</td>
+                            </tr>
+                            <tr>
+                                <td class="col-3"><b>Afstudeerder</b><br>Hogeschool Leiden<img class="organisatie" src="./images/hsleiden.jpeg" alt="logo Hogeschool Leiden"><br>mei 2017 - jan. 2018</td>
+                                <td class="col-9">Onderzoek verrichten naar benodigdheden van een forensisch lab</td>
+                            </tr>
+                            <tr>
+                                <td class="col-3"><b>Afstudeerder</b><br>TNO<img class="organisatie" src="./images/tno.jpeg" alt="logo TNO"><br>feb. 2016 - aug. 2016</td>
+                                <td class="col-9">Nieuwe bronnen m.b.t. cybercriminaliteit en het Dark Web identificeren en analyseren, en onderzoek doen naar mogelijke identificatiemethodes van TOR-gebruikers.</td>
+                            </tr>
+                            <tr>
+                                <td class="col-3"><b>Stagiair</b><br>Belastingdienst<img class="organisatie" src="./images/belastingdienst.jpeg" alt="logo Belastingdienst"><br>sep. 2014 - jan. 2015</td>
+                                <td class="col-9">Werkzaam bij het Internet Service Centre, onderdeel van de Landelijke Toezicht Organisatie.
+                                    <ul>
+                                        <li>Doelgroepanalyse maken</li>
+                                        <li>Ontwerpen van webpagina's</li>
+                                        <li>Software onderzoek uitvoeren</li>
+                                        <li>Adviseren over behoeften doelgroep, en hoe deze vormgegeven en gedistribueerd zouden kunnen worden.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
                     </div>
                     <div id="opleidingen" class="tab-pane fade">
-                        <h3>Menu 1</h3>
+                        <h3>Opleidingen & Cursussen</h3>
                         <p>Some content in menu 1.</p>
                     </div>
                     <div id="nevenactiviteiten" class="tab-pane fade">
-                        <h3>Menu 2</h3>
+                        <h3>Nevenactiviteiten</h3>
                         <p>Some content in menu 2.</p>
                     </div>
                     <div id="vaardigheden" class="tab-pane fade">
-                        <h3>Menu 2</h3>
+                        <h3>Vaardigheden</h3>
                         <p>Some content in menu 2.</p>
                     </div>
                     <div id="over" class="tab-pane fade">
-                        <h3>Menu 2</h3>
+                        <h3>Over Mij</h3>
                         <p>Some content in menu 2.</p>
                     </div>
                     <div id="contact" class="tab-pane fade">

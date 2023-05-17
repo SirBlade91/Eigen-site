@@ -4,10 +4,22 @@ body{
 .row{
     background-color: #FFFFFF;
 }
+header{
+    padding: 10px;
+}
 #logo{
     animation: run 2s;
-    max-height: 20%;
-    max-width: 20%;
+    max-width: 15%;
+}
+@keyframes run {
+    0% { margin-left: -2000px; }
+    100% { margin-left: -10px; }
+}
+#titel{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    background-color: #D1D1D2;
 }
 nav{
     padding: 5px;
@@ -16,9 +28,6 @@ nav{
     border-bottom: none;
     border-color: #FFD100;
 }
-nav > div{
-    padding:5px;
-}
 nav > ul > li{
     border-radius: 10px;
     border-width: 1px;
@@ -26,31 +35,39 @@ nav > ul > li{
     border-bottom: none;
     border-color: #DEE2E6;
 }
-header{
-    padding: 10px;
-}
-#titel{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-style: italic;
-    background-color: #D1D1D2;
-}
-#werkervaring{
-    animation: fadeIn 0.5s;
-}
 .tab-content{
     border-width: 1px;
     border-style: solid;
     border-top: none;
     border-color: #FFD100;
 }
+#werkervaring{
+    animation: fadeIn 0.5s;
+}
 @keyframes fadeIn {
     0% { opacity: 0; }
     30% { opacity: 0; }
     100% { opacity: 1; }
 }
-
-@keyframes run {
-    0% { margin-left: -2000px; }
-    100% { margin-left: -10px; }
+#tabelWerkervaring{
+    width: 100%;
+    margin: 5px;
+}
+#tabelWerkervaring tr:nth-child(1){
+    border-top-width: 3px;
+}
+#tabelWerkervaring td:nth-child(1){
+    border-top-width: 1px;
+    border-right-width: 3px;
+    border-style: solid;
+}
+#tabelWerkervaring td:nth-child(2){
+    border-top-width: 1px;
+}
+#tabelWerkervaring tr:last-child{
+    border-bottom: hidden;
+}
+.organisatie{
+    width: 32px;
+    padding-left: 5px;
 }
