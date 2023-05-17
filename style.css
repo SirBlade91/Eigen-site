@@ -5,11 +5,11 @@ body{
     background-color: #FFFFFF;
 }
 header{
-    padding: 10px;
+    padding: 0px;
 }
 #logo{
     animation: run 2s;
-    max-width: 15%;
+    max-width: 25%;
 }
 @keyframes run {
     0% { margin-left: -2000px; }
@@ -20,6 +20,7 @@ header{
     font-weight: bold;
     font-style: italic;
     background-color: #D1D1D2;
+    padding-top: 40px;
 }
 nav{
     padding: 5px;
