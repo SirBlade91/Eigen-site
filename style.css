@@ -4,16 +4,13 @@ body{
 .row{
     background-color: #FFFFFF;
 }
-header{
-    padding: 0px;
-}
 #logo{
     animation: run 2s;
     max-width: 25%;
 }
 @keyframes run {
     0% { margin-left: -2000px; }
-    100% { margin-left: -10px; }
+    100% { margin-left: 0px; }
 }
 #titel{
     font-family: Arial, Helvetica, sans-serif;
