@@ -6,8 +6,8 @@ body{
 }
 #logo{
     animation: run 2s;
-    max-width: 25%;
-    min-width: 15%;
+    max-width: 50%;
+    min-width: 25%;
 }
 @keyframes run {
     0% { margin-left: -2000px; }
