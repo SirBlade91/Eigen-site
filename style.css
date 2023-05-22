@@ -7,12 +7,12 @@ body{
 #logo{
     animation: run 2s;
     max-width: 15%;
+    padding-top: 10px;
+    padding-bottom: 5px;
     @media (max-width: 1080px) {
         max-width: 15%;
         min-width: 15%
     }
-    padding-top: 10px;
-    padding-bottom: 5px;
 }
 @keyframes run {
     0% { margin-left: -2000px; }
