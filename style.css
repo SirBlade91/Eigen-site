@@ -6,8 +6,7 @@ body{
 }
 #logo{
     animation: run 2s;
-    max-width: 50%;
-    min-width: 50%;
+    max-width: 25%;
     padding-top: 10px;
     padding-bottom: 5px;
 }
@@ -20,7 +19,7 @@ body{
     font-weight: bold;
     font-style: italic;
     background-color: #D1D1D2;
-    padding-top: 45px;
+    padding-top: 130px;
 }
 nav{
     padding: 5px;
