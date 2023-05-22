@@ -7,7 +7,9 @@ body{
 #logo{
     animation: run 2s;
     max-width: 15%;
-    min-width: 15%;
+    @media (max-width: 1080px) {
+        max-width: 25%;
+    }
     padding-top: 10px;
     padding-bottom: 5px;
 }
