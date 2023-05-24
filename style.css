@@ -29,7 +29,8 @@ nav{
     border-color: #FFD100;
 }
 nav > ul > li{
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     border-width: 1px;
     border-style: solid;
     border-bottom: none;
@@ -49,22 +50,22 @@ nav > ul > li{
     30% { opacity: 0; }
     100% { opacity: 1; }
 }
-#tabelWerkervaring{
+.table{
     width: 100%;
     margin: 5px;
 }
-#tabelWerkervaring tr:nth-child(1){
+.table tr:nth-child(1){
     border-top-width: 3px;
 }
-#tabelWerkervaring td:nth-child(1){
+.table td:nth-child(1){
     border-top-width: 1px;
     border-right-width: 3px;
     border-style: solid;
 }
-#tabelWerkervaring td:nth-child(2){
+.table td:nth-child(2){
     border-top-width: 1px;
 }
-#tabelWerkervaring tr:last-child{
+.table tr:last-child{
     border-bottom: hidden;
 }
 .organisatie{
