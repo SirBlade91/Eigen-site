@@ -75,6 +75,7 @@ nav > ul > li{
 #profiel{
     margin-bottom: 10px;
     border-width: 5px;
-    border-style: groove;
-    border-color: black;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #DEE2E6;
 }
