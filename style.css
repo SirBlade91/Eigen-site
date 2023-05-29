@@ -74,7 +74,7 @@ nav > ul > li{
 }
 #profieltekst{
     margin-left: 10px;
-    padding-right: 100px;
+    margin-right: 50px;
 }
 #profiel{
     margin-bottom: 10px;
@@ -82,5 +82,4 @@ nav > ul > li{
     border-radius: 50%;
     border-style: solid;
     border-color: #DEE2E6;
-    margin-top: -30px;
 }
