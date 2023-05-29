@@ -74,8 +74,12 @@ nav > ul > li{
 }
 #profieltekst{
     margin-left: 10px;
-    margin-right: 5%;
 }
+@media only screen and (min-width: 500px) {
+    #profieltekst{
+        margin-right: 5%;
+    }
+  }
 #profiel{
     margin-bottom: 10px;
     border-width: 5px;
