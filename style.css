@@ -84,16 +84,19 @@ nav > ul > li{
     border-color: #DEE2E6;
     margin-top: -20px
 }
-.tabelcompetenties{
+#tabelcompetenties{
     margin-right: 0px;
-    text-align: center;
+    
 }
-.tabelvaardigheden{
+#tabelvaardigheden{
     margin-left: 0px;
-    text-align: center;
-    border-left-width: 3px;
+    border-left-width: 0px;
     border-right-width: 0px;
     border-style: solid;
+}
+#tabelvaardigheden, #tabelcompetenties{
+    text-align: center;
+    font-weight: bold;
 }
 
 .hidden{
